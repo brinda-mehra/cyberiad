@@ -197,10 +197,6 @@ label[for="nav-checkbox"] i{
     grid-gap: 10px;
 }
 
-.night{
-    background-image: url("assets/nightbg.jpg");
-}
-
 #welcome{
     padding: 0 20px 20px 20px;
 }
