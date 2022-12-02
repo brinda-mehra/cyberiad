@@ -206,7 +206,6 @@ label[for="nav-checkbox"] i{
 }
 
 
-
 .welcome-text{
     grid-column: 1/5;
 }
@@ -266,7 +265,7 @@ label[for="nav-checkbox"] i{
     box-shadow: 12px 12px 2px 1px rgb(255, 234, 0);
 }
 
-.quote h3 {
+.quote h2 {
     overflow: hidden;
     width: 0;
     border-right: .15em solid black;
@@ -483,6 +482,32 @@ label[for="nav-checkbox"] i{
 .contact form button:hover, .contact form button:focus{
     background: #FFEB14;
     color: black;
+}
+
+.fontchange{
+    font-family: "Rubik";
+}
+
+
+.size{
+    line-height: 1.4em;
+    letter-spacing: 3px;
+}
+
+ .fontchange .tes{
+    font-size: 0.7em;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.btndesign{
+    background-color: var(--tertiary);
+    color: black;
+    border-radius: 60px;
+    font-size: 1.1em;
+    padding: 0.2em 0.5em;
+    font-family: "Orbitron";
+    margin-bottom: 60px;
 }
 
 
@@ -768,6 +793,11 @@ footer .social img {
         padding-bottom: 10px;
     }
 
+    .welcome-text h1 {
+        padding-top: 3.5em;
+        font-size: 4em;
+    }
+
     .associates{
         padding: 30px 20px;
     }
@@ -825,6 +855,14 @@ footer .social img {
         font-size: 0.8em;
     }
 
+    .fontchange .tes{
+        font-size: 0.95em;
+        font-weight: 400;
+    }
+
+    .btndesign{
+        font-size: 1.6em;
+    }
 
 
     .exp-text{
@@ -869,11 +907,16 @@ footer .social img {
     }
 
     footer .copyright {
-        grid-column: 2/4;
+        grid-column: 1/4;
     }
 
     footer .social {
-        grid-column: 7/8;
+        grid-column: 8/9;
+    }
+
+    footer .social img {
+        height: 28px;
+        margin-left: 15px;
     }
 }
 
@@ -882,17 +925,12 @@ footer .social img {
     .welcome-text{
         padding-left: 3em;
     }
-    .welcome-text h1 {
-        padding-top: 2.5em;
-        font-size: 3em;
-    
-    }
 
     .welcome-text p {
-        font-size: 2.1em;
+        font-size: 1.6em;
         font-size: 400;
         padding-left: 10px;
-        width: 600px;
+        width: 500px;
     }
 
     .welcome-text a {
@@ -960,6 +998,10 @@ footer .social img {
         font-size: 1em;
     }
 
+    .fontchange .tes{
+        font-size: 1.1em;
+    }
+
     .exp-text h1 {
         font-size: 3em;
         text-align: center;
@@ -980,5 +1022,27 @@ footer .social img {
         background-size:8%;
         background-position: bottom;
     }
+
+    footer .copyright {
+        grid-column: 1/3;
+    }
+
+    footer .social {
+        grid-column: 9/9;
+    }
+
+    footer .social img {
+        height: 35px;
+        margin-left: 15px;
+    }
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .fa-robot {
+      animation: none;
+    }
+
+    .quote h3{
+        animation:none;
+    }
+  }

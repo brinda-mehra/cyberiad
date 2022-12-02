@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BVP1NPRCHY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BVP1NPRCHY');
+</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +23,7 @@
 </head>
 <body>
     <header class="navbar">
-        <a href="main" class="skipcontent">Skip to Content</a>
+        <a href="#galleria" class="skipcontent">Skip to Content</a>
         <nav class="nav">
             <input type="checkbox" title="toggle" id="nav-checkbox" class="nav-checkbox">
             <label for="nav-checkbox" class="nav-toggle">menu
@@ -40,7 +49,7 @@
                 <p class="leading">Our journey across galaxies, black holes, dimensions and neutron clusters</p>
             </div>
         </section>
-        <section class="gallery">
+        <section class="gallery" id="galleria">
             <div class="imageCard">
                 <img src="assets/gargantius.webp" alt="a giant robot human">
                 <div class="cardText">
