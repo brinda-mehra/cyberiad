@@ -1050,7 +1050,8 @@ footer .social img {
       animation: none;
     }
 
-    .quote h3{
+   .quote h2{
         animation:none;
+        width: 100%;
     }
   }
