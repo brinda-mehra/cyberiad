@@ -488,6 +488,10 @@ label[for="nav-checkbox"] i{
     font-family: "Rubik";
 }
 
+.leading2{
+    display: none;
+}
+
 
 .size{
     line-height: 1.4em;
@@ -717,6 +721,10 @@ footer .social img {
 
     .skills div article{
         text-align: center;
+    }
+ 
+    .leading2{
+        display: block;
     }
 
     .exp-text h1 {
