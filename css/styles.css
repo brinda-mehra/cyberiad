@@ -183,7 +183,7 @@ label[for="nav-checkbox"] i{
 }
 
 .current {
-   font-weight: 5000;
+   font-weight: 800;
    font-size: 1.2em;
    border-bottom: 2px solid #FFF;
 }
@@ -502,6 +502,7 @@ label[for="nav-checkbox"] i{
     font-size: 0.7em;
     text-align: right;
     padding-right: 20px;
+    padding-top: 60px;
 }
 
 .btndesign{
@@ -722,7 +723,7 @@ footer .social img {
     .skills div article{
         text-align: center;
     }
- 
+
     .leading2{
         display: block;
     }
@@ -936,7 +937,6 @@ footer .social img {
 
     .welcome-text p {
         font-size: 1.6em;
-        font-size: 400;
         padding-left: 10px;
         width: 500px;
     }
@@ -1050,7 +1050,7 @@ footer .social img {
       animation: none;
     }
 
-   .quote h2{
+    .quote h2{
         animation:none;
         width: 100%;
     }
