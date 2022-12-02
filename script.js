@@ -1,3 +1,3 @@
-function aWarning(){
-    alert("THIS IS A WARNING! If you try to copy our inventions, we will find you and we will file a Computer Fraud and Abuse Act. You have been warned!")
+window.onload = function(){
+    alert("THIS IS A WARNING. Stealing our intellectual property means we will hunt you down and feed you to the Computer Fraud and Abuse Act")
 }
